@@ -1,0 +1,341 @@
+/*
+Coded By: Mahmudul Hasan
+Date:21.02.2020
+*/
+
+/*Overall*/
+body{
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+}
+section{
+    height: 300px;
+    padding-bottom: 200px;
+}
+/*Overall*/
+
+
+/*Navigation Section Starts*/
+.navigation{
+    float: right;
+}
+.navigation ul{
+    margin-right: 50px;
+}
+.navigation ul li {
+	display: block;
+	float: left;
+	
+	margin-top: 15px;
+}
+.navigation ul li a {
+	margin: 3px;
+	text-decoration: none;
+	border: 1px solid cyan;
+	padding:15px;
+	font-weight: bold;
+	color: darkgreen;
+	text-transform: uppercase;
+	font-size: 12px;
+	box-shadow: 10px 10px 40px lightblue;
+}
+.navigation ul li a:hover{
+    background: #80444E;
+    color: #ffffff;
+    transition: 1s ease-in;
+}
+/*Navigation Section Ends*/
+
+
+
+
+
+/* Personal_introduction Section Starts */
+
+.personal_introduction {
+	background: url("images/header-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 16%;
+	padding-left: 13%;
+}
+.myname {
+	font-weight: bold;
+	color: #EC4C7A;
+	font-size: 50px;
+}
+.personal_texts{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.hiremebutton {
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #ffffff;
+	background-image: linear-gradient(45deg, #EC4F90,#EC4B74);
+	text-transform: uppercase;
+    line-height: 65px;
+    border-radius: 4px;
+}
+.hiremebutton:hover{
+    background-image: linear-gradient(45deg, rgb(66, 8, 32),grey);
+    transition: 1s ease-out;
+}
+.personal_image{
+    float: right;
+    width: 40%;
+}
+.personal_image img {
+	width: 470px;
+	height: 460px;
+	margin-left: -35%;
+	margin-top: -40%;
+}
+/* Personal_introduction Section Ends */
+
+
+/* Biography_section Section Starts */
+
+.biography_section {
+    background: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.biography_image{
+    float: left;
+    width: 40%;
+}
+.biography_image img {
+	width: 100%;
+	margin-left: 0%;
+	margin-top: -14%;
+}
+.biography_texts {
+	float: right;
+	width: 42%;
+	margin-right: 15%;
+	text-align: justify;
+}
+#biography_header{
+    
+}
+#biography-paragraph{
+    color: #919192;
+}
+.downloadcvbutton {
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+    color: #ffffff;
+    background: tomato;
+	text-transform: uppercase;
+    line-height: 65px;
+    border-radius: 4px;
+}
+.downloadcvbutton:hover{
+    background-image: linear-gradient(45deg, #EC4F90,#EC4B74);
+    transition: 0.04s ease-in;
+}
+
+/* Biography_section Section Ends*/
+
+
+/*Latest Work Section Starts*/
+
+.latestworksection{
+    background: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+#latestworkheader{
+    text-align: center;
+}
+
+.latestworkslist {
+	width: 30%;
+	float: left;
+	margin-left: 8px;
+	margin-top: 8%;
+}
+
+.latestworkslist img {
+	height: 72%;
+	width: 90%;
+	margin-left: 45px;
+	margin-right: ;
+}
+
+/*Latest Work Section*/
+
+/*Client Section Starts*/
+
+.clients-section{
+    background: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    height: 400px;
+}
+#clients-words{
+    text-align: center;
+}
+#client-name{
+    text-align: center;
+}
+#client-desc{
+    color: #919192;
+    text-align: center;
+    font-size:12px ;
+}
+#client-review{
+    text-align: center;
+    color: #80444E;
+   
+}
+.message-me-box {
+	text-align: center;
+	border: 1px solid #EC5094;
+	width: 680px;
+	margin-left: 25%;
+	height: 155px;
+	background-image:linear-gradient(45deg,#EC5094,#ED4B72);
+	margin-top: 5%;
+	border-radius: 15px;
+}
+.message-me-box p {
+	font-weight: bold;
+	color: #fff;
+	padding-top: 25px;
+}
+.message-me-box h4 {
+	color: #fff;
+	font-size: 30px;
+	margin-top: 3%;
+}
+/*Client Section Ends*/
+
+
+/*Contact Section Starts*/
+
+.contact-section {
+    background: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+
+#greetings-header{
+    text-align: left;
+    padding: 10px;
+}
+.contact-element{
+    margin-right: 180px;
+    margin-top: -80px;
+    float: right;
+}
+.contact-image{
+    float: left;
+}
+.social-header {
+	margin-left: 0px;
+	border-bottom: 2px dashed lightslategrey;
+	padding: 10px;
+	width: 130px;
+}
+.social-link a i {
+	margin-left: 0px;
+	background: white;
+	padding: 12px;
+	border: 1px solid aqua;
+	border-radius: 40px;
+	width: 23px;
+	background: lightsalmon;
+	color: #fff;
+	font-size: 23px;
+	text-align: center;
+}
+
+.social-link a i:hover{
+	background: #80444E;
+	color: #fff;
+	margin-left: 0px;
+	padding: 12px;
+	border: 1px solid aqua;
+	border-radius: 40px;
+	width: 23px;
+	font-size: 23px;
+	text-align: center;
+	transition: 1s ease-in;
+}
+.contact-image img{
+    width: 300px;
+    height: 220px;
+}
+.contact-form{
+
+    width: 60%;
+}
+input[type="text"] {
+	width: 400px;
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background: transparent;
+	box-shadow: 1px 1px 4px 1px;
+}
+input[type="email"]{
+    width: 400px;
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	background: transparent;
+	box-shadow: 1px 1px 4px 1px;
+}
+input[type="submit"] {
+	padding: 15px;
+	line-height: 10px;
+	margin-top: 15px;
+	width: 150px;
+	text-transform: uppercase;
+	font-size: 18px;
+	border-radius: 4px;
+    border: 1px solid #ddd;
+    background-image: linear-gradient(45deg, #80444E,pink);
+    color: #ffffff;
+}
+input[type="submit"]:hover{
+    background-image: linear-gradient(45deg, #EC4F90,#EC4B74);
+    transition: 0.04s ease-in;
+}
+textarea {
+	width: 100%;
+    height: 140px;
+    border: 1px solid #ddd;
+	border-radius: 3px;
+	background: transparent;
+	box-shadow: 1px 1px 4px 1px;
+}
+.table-header{
+    font-weight: bold;
+    padding:10px;
+}
+/*Contact Section Ends*/
+
+/*Footer*/
+footer{
+	padding-top:15px ;
+	padding-bottom: 5px;
+}
+#copyright-text{
+	text-align: center;
+	color: #919192;
+}
